@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Cin-mc-s0n">
-                                <rect key="frame" x="20" y="106" width="278.5" height="104.5"/>
+                                <rect key="frame" x="20" y="122" width="278.5" height="104.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiD-wI-GJn">
                                         <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
@@ -40,6 +40,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailingMargin" secondItem="wiD-wI-GJn" secondAttribute="trailing" constant="192" id="75U-PI-vRc"/>
+                                    <constraint firstItem="wiD-wI-GJn" firstAttribute="top" secondItem="Cin-mc-s0n" secondAttribute="top" constant="30" id="AhC-F5-mlP"/>
                                     <constraint firstItem="wiD-wI-GJn" firstAttribute="top" secondItem="Cin-mc-s0n" secondAttribute="topMargin" constant="20" id="Pnz-Np-Ulq"/>
                                     <constraint firstAttribute="trailingMargin" secondItem="0DY-wr-cMe" secondAttribute="trailing" id="SBs-4N-16G"/>
                                     <constraint firstItem="wiD-wI-GJn" firstAttribute="leading" secondItem="Cin-mc-s0n" secondAttribute="leadingMargin" id="lH9-f6-Udd"/>
