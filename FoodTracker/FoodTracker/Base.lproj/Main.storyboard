@@ -55,14 +55,20 @@
                                     </stackView>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="ZaX-DS-q9l">
                                         <rect key="frame" x="0.0" y="111.5" width="320" height="320"/>
+                                        <gestureRecognizers/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="ZaX-DS-q9l" secondAttribute="height" multiplier="1:1" id="GKW-1Z-fro"/>
+                                            <constraint firstAttribute="width" secondItem="ZaX-DS-q9l" secondAttribute="height" multiplier="1:1" priority="1" id="GKW-1Z-fro"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="XjQ-fX-5SB" appends="YES" id="Ifq-Yx-V91"/>
+                                        </connections>
                                     </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Cin-mc-s0n" firstAttribute="top" secondItem="nfP-LS-Dd5" secondAttribute="top" constant="10" id="1mM-Xu-TEQ"/>
+                                    <constraint firstItem="ZaX-DS-q9l" firstAttribute="leading" secondItem="nfP-LS-Dd5" secondAttribute="leading" id="TdO-G8-Ht1"/>
                                     <constraint firstItem="ZaX-DS-q9l" firstAttribute="top" secondItem="Cin-mc-s0n" secondAttribute="bottom" constant="7" id="ZHA-iC-GfS"/>
+                                    <constraint firstItem="ZaX-DS-q9l" firstAttribute="top" secondItem="Cin-mc-s0n" secondAttribute="bottom" constant="30" id="gXw-Ko-74D"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -72,9 +78,15 @@
                     <connections>
                         <outlet property="mealNameLabel" destination="wiD-wI-GJn" id="yGB-sh-zPW"/>
                         <outlet property="nameTextField" destination="0DY-wr-cMe" id="szx-lf-bgS"/>
+                        <outlet property="photoImageView" destination="ZaX-DS-q9l" id="UdA-Fw-rzi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="XjQ-fX-5SB">
+                    <connections>
+                        <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="mDY-P6-il1"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="57.971014492753625" y="20.758928571428569"/>
         </scene>
