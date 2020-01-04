@@ -58,6 +58,8 @@
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ZaX-DS-q9l" secondAttribute="height" multiplier="1:1" priority="1" id="GKW-1Z-fro"/>
+                                            <constraint firstAttribute="width" constant="320" id="eSM-Is-1vB"/>
+                                            <constraint firstAttribute="height" constant="320" id="qEo-eg-Ppi"/>
                                         </constraints>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="XjQ-fX-5SB" appends="YES" id="Ifq-Yx-V91"/>
