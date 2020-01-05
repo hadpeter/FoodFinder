@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="nfP-LS-Dd5">
-                                <rect key="frame" x="20" y="122" width="320" height="431.5"/>
+                                <rect key="frame" x="20" y="122" width="320" height="548.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Cin-mc-s0n">
                                         <rect key="frame" x="0.0" y="0.0" width="278.5" height="104.5"/>
@@ -65,6 +65,9 @@
                                             <outletCollection property="gestureRecognizers" destination="XjQ-fX-5SB" appends="YES" id="Ifq-Yx-V91"/>
                                         </connections>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-tM-Gjn" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="438.5" width="200" height="110"/>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Cin-mc-s0n" firstAttribute="top" secondItem="nfP-LS-Dd5" secondAttribute="top" constant="10" id="1mM-Xu-TEQ"/>
