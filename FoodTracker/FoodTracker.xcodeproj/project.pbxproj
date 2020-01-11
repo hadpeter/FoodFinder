@@ -15,6 +15,7 @@
 		39A878D023BE88D100161037 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A878CF23BE88D100161037 /* FoodTrackerTests.swift */; };
 		39D61EFE23C25D6000F5D80C /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D61EFD23C25D5F00F5D80C /* RatingControl.swift */; };
 		39D61F0023C3F60100F5D80C /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D61EFF23C3F60100F5D80C /* Meal.swift */; };
+		39D61F0223CA508900F5D80C /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D61F0123CA508900F5D80C /* MealTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		39A878D123BE88D100161037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39D61EFD23C25D5F00F5D80C /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		39D61EFF23C3F60100F5D80C /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		39D61F0123CA508900F5D80C /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				39A878BC23BE88CF00161037 /* ViewController.swift */,
 				39D61EFD23C25D5F00F5D80C /* RatingControl.swift */,
 				39D61EFF23C3F60100F5D80C /* Meal.swift */,
+				39D61F0123CA508900F5D80C /* MealTableViewCell.swift */,
 				39A878BE23BE88CF00161037 /* Main.storyboard */,
 				39A878C123BE88D100161037 /* Assets.xcassets */,
 				39A878C323BE88D100161037 /* LaunchScreen.storyboard */,
@@ -207,6 +210,7 @@
 				39A878BD23BE88CF00161037 /* ViewController.swift in Sources */,
 				39D61EFE23C25D6000F5D80C /* RatingControl.swift in Sources */,
 				39A878BB23BE88CF00161037 /* AppDelegate.swift in Sources */,
+				39D61F0223CA508900F5D80C /* MealTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
