@@ -130,7 +130,7 @@
                     <navigationItem key="navigationItem" title="New Meal" id="PkN-MG-mK1">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="UyG-KC-fWk">
                             <connections>
-                                <action selector="cancel:" destination="BYZ-38-t0r" id="bB5-Xg-dkh"/>
+                                <segue destination="uBo-hy-AcA" kind="unwind" unwindAction="cancelToMealListWithSender:" id="474-2d-B39"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="F68-qf-44C">

@@ -106,6 +106,9 @@ class MealTableViewController: UITableViewController {
         }
     }
     
+    @IBAction func cancelToMealList(sender: UIStoryboardSegue) {
+        dismiss(animated: true, completion: nil)
+    }
     //MARK: Private Methods
     
     private func loadSampleMeals() {
